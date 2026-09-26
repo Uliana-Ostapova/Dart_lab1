@@ -1,4 +1,4 @@
-void main(){
+void main() {
 String name = 'Артём';
 int age = 20;
 double height = 1.75;
@@ -42,4 +42,8 @@ person['city'] = 'Волжский';
 Set<int> ids = {1, 2, 3, 2, 1};
 print(ids);
 print(ids.length);
+List<String> fruits2 = ['яблоко','банан','груша'];
+for (var fruit in fruits2) {
+  print(fruit);
+}
 }
