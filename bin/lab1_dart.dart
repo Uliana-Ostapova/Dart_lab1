@@ -83,4 +83,41 @@ void main() {
   for (var fruit in fruits2) {
   print(fruit);
   }
+
+  int score2 = 85;
+  String grabe;
+  if (score2 >= 90) {
+    grabe = 'A';
+  } else if (score2 >= 75) {
+    grabe = 'B';
+  } else {
+    grabe = 'C';
+  }
+  print(grabe);
+  String result = score >= 60 ? 'Сдал' : 'Не сдал';
+  print(result);
+  for (int i = 0; i < 5; i++) {
+    print(i);
+  }
+  List<String> fruits3 = ['яблоко', 'банан', 'груша'];
+  for (var fruit in fruits3) {
+    print(fruit);
+  }
+  int n = 0;
+  while (n < 3) {
+    print(n);
+    n++;
+  }
+  String day = 'Пн';
+  switch (day) {
+    case 'Сб':
+    case 'Вс':
+      print('Выходной');
+      break;
+    case 'Пн':
+      print('Начало недели');
+      break;
+    default:
+      print('Рабочий день');
+  }
 }
